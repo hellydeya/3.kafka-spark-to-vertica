@@ -7,11 +7,11 @@ from datetime import datetime
 
 logging = logging.getLogger(__name__)
 
-os.environ['JAVA_HOME']='/usr/local/openjdk-11'
-os.environ['SPARK_HOME'] ='/opt/spark'
-os.environ['PYTHONPATH'] = '/usr/bin'
-os.environ['HADOOP_CONF_DIR'] = '/etc/hadoop/conf'
-os.environ['YARN_CONF_DIR'] = '/etc/hadoop/conf'
+os.environ['JAVA_HOME']='hello'
+os.environ['SPARK_HOME'] ='hello'
+os.environ['PYTHONPATH'] = 'hello'
+os.environ['HADOOP_CONF_DIR'] = 'hello'
+os.environ['YARN_CONF_DIR'] = 'hello'
  
 with DAG(
         'DAG_spark_job',
